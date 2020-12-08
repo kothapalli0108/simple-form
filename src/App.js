@@ -66,16 +66,6 @@ function App() {
     }
   };
 
-  // function a() {
-  //   // function declartion
-  // }
-
-  // const ab = function () {
-  //   // function expression
-  // };
-
-  // const c = () => {}; //
-
   const handleCityOnChange = (event) => {
     event.preventDefault();
     event.stopPropagation();
@@ -283,7 +273,7 @@ function App() {
                   notification,
                   isValidEmail
                 )}
-                //disabled={true}
+              //disabled={true}
               >
                 Submit
               </Button>
